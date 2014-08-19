@@ -9,7 +9,7 @@ int main(int argc, char** argv)
 {
    int shmId = 0;
    char* pBuf = NULL;
-   char* pGreet = "hello, greetings from process1, modified by clone man";
+   char* pGreet = "hello, greetings from process1, modified by clone man, modified in newbranch";
 
    if(argc != 2)
    {
